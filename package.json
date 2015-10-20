@@ -1,0 +1,29 @@
+{
+  "name": "TotalCoin",
+  "description": "TotalCoin Client library for Node.js",
+  "version": "0.2.0",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "keywords": [
+    "totalcoin",
+    "payment",
+    "payment gateway",
+    "API",
+    "client"
+  ],
+  "main": "index.js",
+  "author": "Juan Pablo Kutianski <jkutianski@gmail.com>",
+  "dependencies": {
+    "superagent": "1.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/totalcoin/sdk-node.git"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  }
+}

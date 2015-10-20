@@ -1,0 +1,314 @@
+{
+    "100": {
+        "message": "Continue",
+        "class": "Informational"
+    },
+    "101": {
+        "message": "Switching Protocols",
+        "class": "Informational"
+    },
+    "102": {
+        "message": "Processing (RFC 2518)",
+        "class": "Informational"
+    },
+    "200": {
+        "message": "OK",
+        "class": "Success"
+    },
+    "201": {
+        "message": "Created",
+        "class": "Success"
+    },
+    "202": {
+        "message": "Accepted",
+        "class": "Success"
+    },
+    "203": {
+        "message": "Non-Authoritative Information",
+        "class": "Success"
+    },
+    "204": {
+        "message": "No Content",
+        "class": "Success"
+    },
+    "205": {
+        "message": "Reset Content",
+        "class": "Success"
+    },
+    "206": {
+        "message": "Partial Content (RFC 7233)",
+        "class": "Success"
+    },
+    "207": {
+        "message": "Multi-Status (RFC 4918)",
+        "class": "Success"
+    },
+    "208": {
+        "message": "Already Reported (RFC 5842)",
+        "class": "Success"
+    },
+    "226": {
+        "message": "Instance-Manipulations Used (RFC 3229)",
+        "class": "Success"
+    },
+    "300": {
+        "message": "Multiple Choices",
+        "class": "Redirection"
+    },
+    "301": {
+        "message": "Moved Permanently",
+        "class": "Redirection"
+    },
+    "302": {
+        "message": "Moved Temporarily",
+        "class": "Redirection"
+    },
+    "303": {
+        "message": "See Other",
+        "class": "Redirection"
+    },
+    "304": {
+        "message": "Not Modified",
+        "class": "Redirection"
+    },
+    "305": {
+        "message": "Use Proxy",
+        "class": "Redirection"
+    },
+    "306": {
+        "message": "Switch Proxy",
+        "class": "Redirection"
+    },
+    "307": {
+        "message": "Temporary Redirect",
+        "class": "Redirection"
+    },
+    "308": {
+        "message": "Permanent Redirect (RFC 7538)",
+        "class": "Redirection"
+    },
+    "400": {
+        "message": "Bad Request",
+        "class": "Client Error"
+    },
+    "401": {
+        "message": "Unauthorized (RFC 7235)",
+        "class": "Client Error"
+    },
+    "402": {
+        "message": "Payment Required",
+        "class": "Client Error"
+    },
+    "403": {
+        "message": "Forbidden",
+        "class": "Client Error"
+    },
+    "404": {
+        "message": "Not Found",
+        "class": "Client Error"
+    },
+    "405": {
+        "message": "Method Not Allowed",
+        "class": "Client Error"
+    },
+    "406": {
+        "message": "Not Acceptable",
+        "class": "Client Error"
+    },
+    "407": {
+        "message": "Proxy Authentication Required (RFC 7235)",
+        "class": "Client Error"
+    },
+    "408": {
+        "message": "Request Time-out",
+        "class": "Client Error"
+    },
+    "409": {
+        "message": "Conflict",
+        "class": "Client Error"
+    },
+    "410": {
+        "message": "Gone",
+        "class": "Client Error"
+    },
+    "411": {
+        "message": "Length Required",
+        "class": "Client Error"
+    },
+    "412": {
+        "message": "Precondition Failed (RFC 7232)",
+        "class": "Client Error"
+    },
+    "413": {
+        "message": "Request Entity Too Large (RFC 7231)",
+        "class": "Client Error"
+    },
+    "414": {
+        "message": "Request-URI Too Large",
+        "class": "Client Error"
+    },
+    "415": {
+        "message": "Unsupported Media Type",
+        "class": "Client Error"
+    },
+    "416": {
+        "message": "Requested Range Not Satisfiable (RFC 7233)",
+        "class": "Client Error"
+    },
+    "417": {
+        "message": "Expectation Failed",
+        "class": "Client Error"
+    },
+    "418": {
+        "message": "I'm a teapot (RFC 2324)",
+        "class": "Client Error"
+    },
+    "419": {
+        "message": "Authentication Timeout (not in RFC 2616)",
+        "class": "Client Error"
+    },
+    "421": {
+        "message": "Misdirected Request (HTTP/2)",
+        "class": "Client Error"
+    },
+    "422": {
+        "message": "Unprocessable Entity (RFC 4918)",
+        "class": "Client Error"
+    },
+    "423": {
+        "message": "Locked (RFC 4918)",
+        "class": "Client Error"
+    },
+    "424": {
+        "message": "Failed Dependency (RFC 4918)",
+        "class": "Client Error"
+    },
+    "425": {
+        "message": "Unordered Collection",
+        "class": "Client Error"
+    },
+    "426": {
+        "message": "Upgrade Required",
+        "class": "Client Error"
+    },
+    "428": {
+        "message": "Precondition Required (RFC 6585)",
+        "class": "Client Error"
+    },
+    "429": {
+        "message": "Too Many Requests (RFC 6585)",
+        "class": "Client Error"
+    },
+    "431": {
+        "message": "Request Header Fields Too Large (RFC 6585)",
+        "class": "Client Error"
+    },
+    "440": {
+        "message": "Login Timeout (Microsoft)",
+        "class": "Client Error"
+    },
+    "444": {
+        "message": "No Response (Nginx)",
+        "class": "Client Error"
+    },
+    "449": {
+        "message": "Retry With (Microsoft)",
+        "class": "Client Error"
+    },
+    "450": {
+        "message": "Blocked by Windows Parental Controls (Microsoft)",
+        "class": "Client Error"
+    },
+    "451": {
+        "message": "Unavailable For Legal Reasons (Internet draft)",
+        "class": "Client Error"
+    },
+    "494": {
+        "message": "Request Header Too Large (Nginx)",
+        "class": "Client Error"
+    },
+    "495": {
+        "message": "Cert Error (Nginx)",
+        "class": "Client Error"
+    },
+    "496": {
+        "message": "No Cert (Nginx)",
+        "class": "Client Error"
+    },
+    "497": {
+        "message": "HTTP to HTTPS (Nginx)",
+        "class": "Client Error"
+    },
+    "498": {
+        "message": "Token expired/invalid",
+        "class": "Client Error"
+    },
+    "499": {
+        "message": "Client Closed Request (Nginx)",
+        "class": "Client Error"
+    },
+    "500": {
+        "message": "Internal Server Error",
+        "class": "Server Error"
+    },
+    "501": {
+        "message": "Not Implemented",
+        "class": "Server Error"
+    },
+    "502": {
+        "message": "Bad Gateway",
+        "class": "Server Error"
+    },
+    "503": {
+        "message": "Service Unavailable",
+        "class": "Server Error"
+    },
+    "504": {
+        "message": "Gateway Time-out",
+        "class": "Server Error"
+    },
+    "505": {
+        "message": "HTTP Version Not Supported",
+        "class": "Server Error"
+    },
+    "506": {
+        "message": "Variant Also Negotiates (RFC 2295)",
+        "class": "Server Error"
+    },
+    "507": {
+        "message": "Insufficient Storage (WebDAV; RFC 4918)",
+        "class": "Server Error"
+    },
+    "508": {
+        "message": "Loop Detected (RFC 5842)",
+        "class": "Server Error"
+    },
+    "509": {
+        "message": "Bandwidth Limit Exceeded",
+        "class": "Server Error"
+    },
+    "510": {
+        "message": "Not Extended (RFC 2774)",
+        "class": "Server Error"
+    },
+    "511": {
+        "message": "Network Authentication Required (RFC 6585)",
+        "class": "Server Error"
+    },
+    "520": {
+        "message": "Unknown Error",
+        "class": "Server Error"
+    },
+    "522": {
+        "message": "Origin Connection Time-out",
+        "class": "Server Error"
+    },
+    "598": {
+        "message": "Network read timeout error (Microsoft HTTP proxies)",
+        "class": "Server Error"
+    },
+    "599": {
+        "message": "Network connect timeout error (Microsoft HTTP proxies)",
+        "class": "Server Error"
+    }
+}
